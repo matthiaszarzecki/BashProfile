@@ -19,4 +19,5 @@ export PS1='\[\e[1;31m\]\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
 
 # Aliases
 alias l='ls -al'
+alias ls='ls -al'
 alias c='cd ~'
