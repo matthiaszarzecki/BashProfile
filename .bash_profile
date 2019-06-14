@@ -4,7 +4,7 @@
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 
-# Set Default language profile to UTF-8
+# Set Default language profile to UTF-8 (for Fastlane usage)
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
