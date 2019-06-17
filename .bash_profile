@@ -11,7 +11,7 @@ HISTFILESIZE=1000000
 # Merge all separate histories into a single history-file
 SHELL_SESSION_HISTORY=0
 
-# Gives the address-line unique colors
+# Give the address-line unique colors
 # Username:    Bold (1) & Cyan (36)
 # Color:       Black (0)
 # Filepath:    Bold (1) & Red (31)
