@@ -24,7 +24,9 @@ alias l='ls -al'
 alias ls='ls -al'
 alias c='cd ~'
 alias o='open .'
+alias p='open .'
 alias op='open .'
+alias ope='open .'
 alias open='open .'
 
 # Load RVM into a shell session *as a function* (automatically created by RVM)
