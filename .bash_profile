@@ -26,7 +26,6 @@ alias c='cd ~'
 alias o='open .'
 alias op='open .'
 alias open='open .'
-alias open ='open .'
 
 # Load RVM into a shell session *as a function* (automatically created by RVM)
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
