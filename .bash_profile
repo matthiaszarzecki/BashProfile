@@ -23,11 +23,23 @@ export PS1='\[\e[1;36m\]\h\[\e[0m\]:\[\e[1;31m\]\w\[\e[0m\]\$ '
 alias l='ls -al'
 alias ls='ls -al'
 alias c='cd ~'
+
+alias g='git status'
+alias gi='git status'
+alias git='git status'
+alias gits='git status'
+alias gitst='git status'
+alias gitsta='git status'
+alias gitstat='git status'
+alias gitstatu='git status'
+alias gitstatus='git status'
+
 alias o='open .'
 alias p='open .'
 alias op='open .'
 alias ope='open .'
 alias open='open .'
+alias open.='open .'
 
 # Load RVM into a shell session *as a function* (automatically created by RVM)
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
