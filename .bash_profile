@@ -26,7 +26,6 @@ alias c='cd ~'
 
 alias g='git status'
 alias gi='git status'
-alias git='git status'
 alias gits='git status'
 alias gitst='git status'
 alias gitsta='git status'
@@ -40,6 +39,8 @@ alias op='open .'
 alias ope='open .'
 alias open='open .'
 alias open.='open .'
+alias opn='open .'
+alias opebn.='open .'
 
 # Load RVM into a shell session *as a function* (automatically created by RVM)
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
