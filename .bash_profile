@@ -24,6 +24,8 @@ alias l='ls -al'
 alias ls='ls -al'
 alias c='cd ~'
 
+alias please='sudo'
+
 alias g='git status'
 alias gi='git status'
 alias gits='git status'
