@@ -19,6 +19,9 @@ SHELL_SESSION_HISTORY=0
 # Empty Space: ' '
 export PS1='\[\e[1;36m\]\h\[\e[0m\]:\[\e[1;31m\]\w\[\e[0m\]\$ '
 
+# Suppress MacOS Catalina "please change to zshell" message
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # Aliases
 alias l='ls -al'
 alias ls='ls -al'
