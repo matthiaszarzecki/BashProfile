@@ -12,12 +12,15 @@ HISTFILESIZE=1000000
 SHELL_SESSION_HISTORY=0
 
 # Give the address-line unique colors
-# Username:    Bold (1) & Cyan (36)
-# Color:       Black (0)
-# Filepath:    Bold (1) & Red (31)
-# Dollar-Sign: Black (0)
-# Empty Space: ' '
-export PS1='\[\e[1;36m\]\h\[\e[0m\]:\[\e[1;31m\]\w\[\e[0m\]\$ '
+# Username:              Bold (1) & Cyan (36)
+# Color:                 Black (0)
+# Filepath:              Bold (1) & Red (31)
+# Dollar-Sign:           Black (0)
+# Empty Space:           ' '
+# Marker to start style: \[\e[31m\]
+# Multiple styles:       \[\e[1;31m\]
+# Path:                  \w
+export PS1='\[\e[94m\]\w \[\e[31m\]❱\[\e[93m\]❱\[\e[32m\]❱ \[\e[39m\]'
 
 # Suppress MacOS Catalina "please change to zshell" message
 export BASH_SILENCE_DEPRECATION_WARNING=1
