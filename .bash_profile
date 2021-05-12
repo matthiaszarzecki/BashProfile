@@ -26,8 +26,8 @@ export PS1='\[\e[94m\]\w \[\e[31m\]❱\[\e[93m\]❱\[\e[32m\]❱ \[\e[39m\]'
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Aliases
-alias l='ls -al'
-alias ls='ls -al'
+alias l='ls -1'
+alias ls='ls -1'
 alias c='cd ~'
 
 alias please='sudo'
@@ -56,4 +56,3 @@ alias ....='cd ../../..'
 
 # Load RVM into a shell session *as a function* (automatically created by RVM)
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
