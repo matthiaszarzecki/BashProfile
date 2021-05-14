@@ -28,6 +28,9 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 # Aliases
 alias l='ls -1'
 alias ls='ls -1'
+alias ö='ls -1'
+alias ös='ls -1'
+
 alias c='cd ~'
 
 alias please='sudo'
