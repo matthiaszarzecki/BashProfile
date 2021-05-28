@@ -35,6 +35,8 @@ alias c='cd ~'
 
 alias please='sudo'
 
+alias f="git fetch"
+
 alias g='git status'
 alias gi='git status'
 alias gits='git status'
@@ -56,6 +58,8 @@ alias opebn.='open .'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+
+alias coredataclean='find ~/Library/Developer/Xcode/DerivedData -name CoreDataGenerated | xargs rm -vr'
 
 # Load RVM into a shell session *as a function* (automatically created by RVM)
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
