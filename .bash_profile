@@ -46,6 +46,18 @@ alias gitstat='git status'
 alias gitstatu='git status'
 alias gitstatus='git status'
 
+alias s='git status'
+alias st='git status'
+alias sta='git status'
+alias stat='git status'
+alias statu='git status'
+alias status='git status'
+
+alias p='git push origin'
+alias pu='git push origin'
+alias pus='git push origin'
+alias push='git push origin'
+
 alias o='open .'
 alias p='open .'
 alias op='open .'
