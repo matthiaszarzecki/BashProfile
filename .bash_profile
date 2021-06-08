@@ -59,7 +59,6 @@ alias pus='git push origin'
 alias push='git push origin'
 
 alias o='open .'
-alias p='open .'
 alias op='open .'
 alias ope='open .'
 alias open='open .'
