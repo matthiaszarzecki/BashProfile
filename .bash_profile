@@ -74,6 +74,8 @@ alias coredataclean='find ~/Library/Developer/Xcode/DerivedData -name CoreDataGe
 
 alias m='make generate'
 
+alias d='rm -rf ~/Library/Developer/Xcode/DerivedData'
+
 # Load RVM into a shell session *as a function* (automatically created by RVM)
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
